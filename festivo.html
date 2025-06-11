@@ -3,24 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/minimalista.css">
+    <link rel="stylesheet" href="css/festivo.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <title>Amigo Secreto - Minimalista</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Amigo Secreto - Festivo</title>
 </head>
 
 <body>
+    <div class="confetti"></div>
     <main class="main-content">
         <header class="header-banner">
-            <h1 class="main-title">Amigo Secreto</h1>
+            <h1 class="main-title">Amigo Secreto 🎉</h1>
+            <p class="subtitle">Vamos celebrar juntos!</p>
         </header>
         
         <section class="input-section">
-            <h2 class="section-title">Digite o nome dos seus amigos</h2>
+            <h2 class="section-title">Adicione seus amigos 🎊</h2>
             <div class="input-wrapper">
-                <input type="text" id="amigo" class="input-name" placeholder="Digite um nome">
-                <button class="button-add" onclick="adicionarAmigo()">Adicionar</button>
+                <input type="text" id="amigo" class="input-name" placeholder="Nome do amigo 😊">
+                <button class="button-add" onclick="adicionarAmigo()">Adicionar ✨</button>
             </div>
            
             <ul id="listaAmigos" class="name-list" aria-labelledby="listaAmigos" role="list"></ul>
@@ -28,7 +30,7 @@
 
             <div class="button-container">
                 <button class="button-draw" onclick="sortearAmigo()" aria-label="Sortear amigo secreto">
-                    Sortear Amigo
+                    🎁 Sortear Amigo 🎁
                 </button>
             </div>
         </section>
@@ -37,8 +39,8 @@
     <footer class="footer">
         <p>Desenvolvido por Andre Teixeira</p>
         <nav class="theme-nav">
-            <a href="index.html" class="active">Minimalista</a>
-            <a href="festivo.html">Festivo</a>
+            <a href="index.html">Minimalista</a>
+            <a href="festivo.html" class="active">Festivo</a>
             <a href="elegante.html">Elegante</a>
             <a href="natalino.html">Natalino</a>
         </nav>

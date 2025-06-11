@@ -3,23 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/minimalista.css">
+    <link rel="stylesheet" href="css/elegante.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <title>Amigo Secreto - Minimalista</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <title>Amigo Secreto - Elegante</title>
 </head>
 
 <body>
+    <div class="background-pattern"></div>
     <main class="main-content">
         <header class="header-banner">
             <h1 class="main-title">Amigo Secreto</h1>
+            <p class="subtitle">Uma experiência sofisticada</p>
         </header>
         
         <section class="input-section">
-            <h2 class="section-title">Digite o nome dos seus amigos</h2>
+            <h2 class="section-title">Participantes Selecionados</h2>
             <div class="input-wrapper">
-                <input type="text" id="amigo" class="input-name" placeholder="Digite um nome">
+                <input type="text" id="amigo" class="input-name" placeholder="Nome do participante">
                 <button class="button-add" onclick="adicionarAmigo()">Adicionar</button>
             </div>
            
@@ -28,7 +30,7 @@
 
             <div class="button-container">
                 <button class="button-draw" onclick="sortearAmigo()" aria-label="Sortear amigo secreto">
-                    Sortear Amigo
+                    <span class="button-text">Realizar Sorteio</span>
                 </button>
             </div>
         </section>
@@ -37,9 +39,9 @@
     <footer class="footer">
         <p>Desenvolvido por Andre Teixeira</p>
         <nav class="theme-nav">
-            <a href="index.html" class="active">Minimalista</a>
+            <a href="index.html">Minimalista</a>
             <a href="festivo.html">Festivo</a>
-            <a href="elegante.html">Elegante</a>
+            <a href="elegante.html" class="active">Elegante</a>
             <a href="natalino.html">Natalino</a>
         </nav>
     </footer>
